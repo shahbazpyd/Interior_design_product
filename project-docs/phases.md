@@ -21,9 +21,9 @@
 - [x] Build Contact/Lead generation form connected to FastAPI backend.
 
 ## Phase 4: Admin & Authentication (Post-MVP prep)
-- [ ] Implement JWT authentication endpoint in FastAPI.
-- [ ] Create protected Admin Dashboard route in React.
-- [ ] Build UI to fetch and display submitted leads in a table.
+- [x] Implement JWT authentication endpoint in FastAPI.
+- [x] Create protected Admin Dashboard route in React.
+- [x] Build UI to fetch and display submitted leads in a table.
 
 ## Phase 5: Testing & Refinement
 - [ ] Run full cross-device responsive checks.

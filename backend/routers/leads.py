@@ -1,7 +1,9 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
-from .. import models, schemas
-from ..database import get_db
+import models, schemas
+from database import get_db
+
+from auth import get_current_admin
 
 router = APIRouter(
     prefix="/api/leads",
@@ -17,6 +19,7 @@ def create_lead(lead: schemas.LeadCreate, db: Session = Depends(get_db)):
     return db_lead
 
 @router.get("/", response_model=list[schemas.Lead])
-def get_leads(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    leads = db.query(models.Lead).offset(skip).limit(limit).all()
+def get_leads(skip: int = 0, limit: int = 100, db: Session = Depends(get_db), admin: str = Depends(get_current_admin)):
+    # Fetch newest leads first
+    leads = db.query(models.Lead).order_by(models.Lead.created_at.desc()).offset(skip).limit(limit).all()
     return leads
