@@ -26,6 +26,6 @@
 - [x] Build UI to fetch and display submitted leads in a table.
 
 ## Phase 5: Testing & Refinement
-- [ ] Run full cross-device responsive checks.
-- [ ] Verify form error handling (empty fields, invalid emails).
-- [ ] Polish UI animations and loading states.
+- [x] Run full cross-device responsive checks.
+- [x] Verify form error handling (empty fields, invalid emails).
+- [x] Polish UI animations and loading states.

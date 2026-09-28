@@ -120,7 +120,9 @@ export default function Contact() {
         </div>
 
         <div className="text-center pt-4">
-          <Button type="submit" className="w-full md:w-auto px-12 py-4">Submit Inquiry</Button>
+          <Button type="submit" disabled={status.type === 'loading'} className="w-full md:w-auto px-12 py-4">
+            {status.type === 'loading' ? 'Submitting...' : 'Submit Inquiry'}
+          </Button>
         </div>
       </form>
     </div>
