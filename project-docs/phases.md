@@ -15,10 +15,10 @@
 - [x] Build REST API endpoints for Portfolio (GET all, GET by ID).
 
 ## Phase 3: Frontend UI - Public Facing
-- [ ] Build global layout (Navbar, Footer).
-- [ ] Build Hero section and Home page.
-- [ ] Build Portfolio gallery page with grid layout.
-- [ ] Build Contact/Lead generation form connected to FastAPI backend.
+- [x] Build global layout (Navbar, Footer).
+- [x] Build Hero section and Home page.
+- [x] Build Portfolio gallery page with grid layout.
+- [x] Build Contact/Lead generation form connected to FastAPI backend.
 
 ## Phase 4: Admin & Authentication (Post-MVP prep)
 - [ ] Implement JWT authentication endpoint in FastAPI.
