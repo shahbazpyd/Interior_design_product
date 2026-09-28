@@ -6,15 +6,15 @@
 - [x] Initial setup, database, API routes, basic UI, JWT auth, and testing.
 
 ## Phase 6: V2 Backend Expansion
-- [ ] Upgrade `PortfolioProject` model with rich text fields (challenge, solution, client).
-- [ ] Create `ProjectImage` model for one-to-many gallery images.
-- [ ] Create `Testimonial` model.
-- [ ] Update Pydantic schemas and API routers to handle nested relationships.
+- [x] Upgrade `PortfolioProject` model with rich text fields (challenge, solution, client).
+- [x] Create `ProjectImage` model for one-to-many gallery images.
+- [x] Create `Testimonial` model.
+- [x] Update Pydantic schemas and API routers to handle nested relationships.
 
 ## Phase 7: V2 Frontend Architecture & Tooling
-- [ ] Install `framer-motion`, `lucide-react`, `clsx`, and `tailwind-merge`.
-- [ ] Setup global page transitions in `App.jsx`.
-- [ ] Build reusable animation wrapper components (e.g., `FadeIn`, `SlideUp`).
+- [x] Install `framer-motion`, `lucide-react`, `clsx`, and `tailwind-merge`.
+- [x] Setup global page transitions in `App.jsx`.
+- [x] Build reusable animation wrapper components (e.g., `FadeIn`, `SlideUp`).
 
 ## Phase 8: Super Premium UI Implementation
 - [ ] Redesign `Home.jsx` with a cinematic Parallax Hero, scroll-triggered reveals, and a Testimonials carousel.
