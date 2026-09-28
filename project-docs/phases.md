@@ -1,0 +1,31 @@
+# Step-by-Step Development Roadmap
+
+*AI Instruction: Only implement tasks within the currently Active Phase marked in memory.md.*
+
+## Phase 1: Setup & Scaffolding
+- [x] Initialize Git repository.
+- [x] Set up React + Vite frontend with Tailwind CSS.
+- [x] Set up FastAPI backend environment and basic `main.py` health check endpoint.
+- [x] Configure PostgreSQL database connection and `.env` files.
+
+## Phase 2: Database & Core API Models
+- [ ] Create SQLAlchemy models for `Lead` and `PortfolioProject`.
+- [ ] Create Pydantic schemas for data validation.
+- [ ] Build REST API endpoints for Lead capture (POST).
+- [ ] Build REST API endpoints for Portfolio (GET all, GET by ID).
+
+## Phase 3: Frontend UI - Public Facing
+- [ ] Build global layout (Navbar, Footer).
+- [ ] Build Hero section and Home page.
+- [ ] Build Portfolio gallery page with grid layout.
+- [ ] Build Contact/Lead generation form connected to FastAPI backend.
+
+## Phase 4: Admin & Authentication (Post-MVP prep)
+- [ ] Implement JWT authentication endpoint in FastAPI.
+- [ ] Create protected Admin Dashboard route in React.
+- [ ] Build UI to fetch and display submitted leads in a table.
+
+## Phase 5: Testing & Refinement
+- [ ] Run full cross-device responsive checks.
+- [ ] Verify form error handling (empty fields, invalid emails).
+- [ ] Polish UI animations and loading states.
