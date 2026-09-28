@@ -2,30 +2,27 @@
 
 *AI Instruction: Only implement tasks within the currently Active Phase marked in memory.md.*
 
-## Phase 1: Setup & Scaffolding
-- [x] Initialize Git repository.
-- [x] Set up React + Vite frontend with Tailwind CSS.
-- [x] Set up FastAPI backend environment and basic `main.py` health check endpoint.
-- [x] Configure PostgreSQL database connection and `.env` files.
+## Phases 1-5 (V1 MVP) - COMPLETE
+- [x] Initial setup, database, API routes, basic UI, JWT auth, and testing.
 
-## Phase 2: Database & Core API Models
-- [x] Create SQLAlchemy models for `Lead` and `PortfolioProject`.
-- [x] Create Pydantic schemas for data validation.
-- [x] Build REST API endpoints for Lead capture (POST).
-- [x] Build REST API endpoints for Portfolio (GET all, GET by ID).
+## Phase 6: V2 Backend Expansion
+- [ ] Upgrade `PortfolioProject` model with rich text fields (challenge, solution, client).
+- [ ] Create `ProjectImage` model for one-to-many gallery images.
+- [ ] Create `Testimonial` model.
+- [ ] Update Pydantic schemas and API routers to handle nested relationships.
 
-## Phase 3: Frontend UI - Public Facing
-- [x] Build global layout (Navbar, Footer).
-- [x] Build Hero section and Home page.
-- [x] Build Portfolio gallery page with grid layout.
-- [x] Build Contact/Lead generation form connected to FastAPI backend.
+## Phase 7: V2 Frontend Architecture & Tooling
+- [ ] Install `framer-motion`, `lucide-react`, `clsx`, and `tailwind-merge`.
+- [ ] Setup global page transitions in `App.jsx`.
+- [ ] Build reusable animation wrapper components (e.g., `FadeIn`, `SlideUp`).
 
-## Phase 4: Admin & Authentication (Post-MVP prep)
-- [x] Implement JWT authentication endpoint in FastAPI.
-- [x] Create protected Admin Dashboard route in React.
-- [x] Build UI to fetch and display submitted leads in a table.
+## Phase 8: Super Premium UI Implementation
+- [ ] Redesign `Home.jsx` with a cinematic Parallax Hero, scroll-triggered reveals, and a Testimonials carousel.
+- [ ] Redesign `Portfolio.jsx` with an advanced, animated masonry or staggered grid.
+- [ ] Build `ProjectDetails.jsx` page for deep-dive case studies (fetching by ID).
+- [ ] Redesign `Navbar` (glassmorphism on scroll) and `Contact` form (multi-step or highly interactive).
 
-## Phase 5: Testing & Refinement
-- [x] Run full cross-device responsive checks.
-- [x] Verify form error handling (empty fields, invalid emails).
-- [x] Polish UI animations and loading states.
+## Phase 9: Final Polish & Micro-interactions
+- [ ] Implement magnetic button effects and custom cursors (optional).
+- [ ] Fine-tune Framer Motion spring physics for maximum elegance.
+- [ ] Final performance audit for V2.
