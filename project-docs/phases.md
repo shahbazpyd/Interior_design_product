@@ -9,10 +9,10 @@
 - [x] Configure PostgreSQL database connection and `.env` files.
 
 ## Phase 2: Database & Core API Models
-- [ ] Create SQLAlchemy models for `Lead` and `PortfolioProject`.
-- [ ] Create Pydantic schemas for data validation.
-- [ ] Build REST API endpoints for Lead capture (POST).
-- [ ] Build REST API endpoints for Portfolio (GET all, GET by ID).
+- [x] Create SQLAlchemy models for `Lead` and `PortfolioProject`.
+- [x] Create Pydantic schemas for data validation.
+- [x] Build REST API endpoints for Lead capture (POST).
+- [x] Build REST API endpoints for Portfolio (GET all, GET by ID).
 
 ## Phase 3: Frontend UI - Public Facing
 - [ ] Build global layout (Navbar, Footer).
