@@ -27,7 +27,7 @@ export default function Navbar() {
       )}
     >
       <Link to="/" className="text-2xl font-serif font-bold tracking-tight hover:opacity-80 transition-opacity">
-        Lumina Interiors
+        Nawaz Interiors
       </Link>
       <div className="flex gap-8">
         {[

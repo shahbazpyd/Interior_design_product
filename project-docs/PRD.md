@@ -1,4 +1,4 @@
-# Product Requirements Document: Lumina Interiors (V2 Super Premium)
+# Product Requirements Document: Nawaz Interiors (V2 Super Premium)
 
 ## Project Overview
 A super premium, high-performance portfolio and lead-generation website for an elite interior design business. The V1 MVP established the core functionality. V2 aims to elevate the digital storefront into a highly immersive, luxury experience to pitch to high-end clients.

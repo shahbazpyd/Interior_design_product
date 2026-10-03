@@ -35,7 +35,7 @@ try:
     test1 = models.Testimonial(
         client_name="Sarah Harrison",
         project_name="Modern Zen Kitchen",
-        quote="Lumina completely transformed how we live in our home. The attention to detail and luxury finishes are beyond what we ever imagined."
+        quote="Nawaz completely transformed how we live in our home. The attention to detail and luxury finishes are beyond what we ever imagined."
     )
     
     db.add_all([img1, img2, img3, test1])

@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Brand Column */}
         <div className="md:col-span-1">
           <Link to="/" className="text-2xl font-serif font-bold tracking-tight mb-6 block">
-            Lumina Interiors
+            Nawaz Interiors
           </Link>
           <p className="text-gray-400 text-sm leading-relaxed mb-6">
             Award-winning interior design firm transforming spaces into timeless, elegant sanctuaries.
@@ -35,7 +35,7 @@ export default function Footer() {
           <h4 className="text-[#B89C72] font-serif text-lg mb-6 uppercase tracking-widest text-sm">Contact</h4>
           <ul className="space-y-4 text-gray-400 text-sm">
             <li>123 Luxury Avenue<br/>New York, NY 10012</li>
-            <li><a href="mailto:hello@luminainteriors.com" className="hover:text-white transition-colors">hello@luminainteriors.com</a></li>
+            <li><a href="mailto:hello@nawazinteriors.com" className="hover:text-white transition-colors">hello@nawazinteriors.com</a></li>
             <li><a href="tel:+12125550198" className="hover:text-white transition-colors">+1 (212) 555-0198</a></li>
           </ul>
         </div>
@@ -52,7 +52,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center pt-8 text-xs text-gray-600">
-        <p>&copy; {new Date().getFullYear()} Lumina Interiors. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Nawaz Interiors. All rights reserved.</p>
         <div className="flex gap-6 mt-4 md:mt-0">
           <Link to="/privacy-policy" className="hover:text-gray-400 transition-colors">Privacy Policy</Link>
           <Link to="/terms" className="hover:text-gray-400 transition-colors">Terms of Service</Link>

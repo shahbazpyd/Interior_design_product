@@ -38,7 +38,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-[#B89C72] uppercase tracking-[0.3em] text-sm md:text-base font-semibold mb-6"
           >
-            Lumina Interiors
+            Nawaz Interiors
           </motion.p>
           <motion.h1 
             initial={{ opacity: 0, y: 30 }}
@@ -144,7 +144,7 @@ export default function Home() {
             <FadeIn direction="up">
               <h2 className="text-4xl md:text-5xl font-serif mb-8 leading-tight text-[#121212]">"Design is not just what it looks like. It's how it makes you feel."</h2>
               <p className="text-[#737373] text-lg leading-relaxed mb-6">
-                I founded Lumina Interiors with a simple belief: your home should be your ultimate sanctuary. For over a decade, we've helped clients across the globe transform their spaces into stunning, deeply personal environments that elevate their everyday lives.
+                I founded Nawaz Interiors with a simple belief: your home should be your ultimate sanctuary. For over a decade, we've helped clients across the globe transform their spaces into stunning, deeply personal environments that elevate their everyday lives.
               </p>
               <p className="text-[#B89C72] font-serif text-xl italic mb-12">- Elena Rostova, Lead Designer</p>
             </FadeIn>
@@ -185,7 +185,7 @@ export default function Home() {
               ))}
             </div>
             <p className="text-2xl md:text-4xl font-serif leading-snug mb-12 text-gray-300 italic">
-              "Lumina completely transformed how we live in our home. The attention to detail and luxury finishes are beyond what we ever imagined."
+              "Nawaz completely transformed how we live in our home. The attention to detail and luxury finishes are beyond what we ever imagined."
             </p>
             <div className="uppercase tracking-[0.2em] text-sm font-bold text-[#B89C72]">
               Sarah Harrison <span className="mx-2 text-gray-600">|</span> Modern Zen Kitchen

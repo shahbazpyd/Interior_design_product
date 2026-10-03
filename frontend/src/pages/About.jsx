@@ -30,7 +30,7 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <h2 className="text-3xl md:text-4xl font-serif leading-tight">Founded on the belief that environment shapes emotion.</h2>
             <p className="text-[#737373] leading-relaxed">
-              Lumina Interiors was established in 2015 by Elena Rostova. After spending a decade designing luxury boutique hotels across Europe, Elena realized that residential design often lacked the immersive, emotional resonance of hospitality spaces. 
+              Nawaz Interiors was established in 2015 by Elena Rostova. After spending a decade designing luxury boutique hotels across Europe, Elena realized that residential design often lacked the immersive, emotional resonance of hospitality spaces. 
             </p>
           </div>
         </FadeIn>
