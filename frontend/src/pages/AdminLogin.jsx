@@ -38,7 +38,7 @@ export default function AdminLogin() {
   };
 
   return (
-    <div className="min-h-[70vh] flex items-center justify-center bg-brand-primary px-6">
+    <div className="min-h-[70vh] flex items-center justify-center bg-[#F9F8F6] px-6 pt-32 pb-20">
       <div className="w-full max-w-md bg-brand-surface p-8 shadow-sm border border-gray-100">
         <h1 className="text-3xl font-serif text-center mb-8">Admin Access</h1>
         

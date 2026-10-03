@@ -15,8 +15,12 @@ if SQLALCHEMY_DATABASE_URL and SQLALCHEMY_DATABASE_URL.startswith("postgresql://
 if not SQLALCHEMY_DATABASE_URL:
     raise ValueError("DATABASE_URL environment variable is not set")
 
-# Create the SQLAlchemy engine
-engine = create_engine(SQLALCHEMY_DATABASE_URL)
+# Create the SQLAlchemy engine with pool pre-ping to handle Neon's idle disconnects
+engine = create_engine(
+    SQLALCHEMY_DATABASE_URL,
+    pool_pre_ping=True,
+    pool_recycle=1800 # Recycle connections after 30 minutes
+)
 
 # Create a SessionLocal class for database sessions
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)

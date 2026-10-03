@@ -22,3 +22,13 @@ Ultra-luxury, cinematic, and immersive. The UI must feel like browsing a high-en
 *   **Images:** Use large, edge-to-edge photography. Implement lazy loading and subtle scale-in animations on load.
 *   **Buttons:** Magnetic hover effects or sweeping color fills instead of basic opacity drops.
 *   **Navigation:** A transparent header that turns into a sleek glassmorphic bar on scroll.
+
+## Conversion & UX Elements
+*   **CTA Hierarchy:** Ensure primary business actions (e.g., "Book a Consultation") use a solid, high-contrast block color. Secondary actions (e.g., "Explore Portfolio") should use outline/ghost button styling to guide the user's eye.
+*   **Trust Signals & Social Proof:**
+    *   Embed mini-galleries/carousels early on the homepage.
+    *   Include visual trust badges (publication logos, association memberships) alongside text quotes.
+    *   Humanize the brand with a clear Founder Photo and "About the Firm" bio to build client trust.
+*   **Legibility:** Use subtle dark gradient overlays (`bg-gradient-to-b` or `bg-gradient-to-t`) behind text placed over detailed background imagery.
+*   **Business Transparency:** Explicitly state service categories (Full-Service, E-Design), pricing context, and localized/remote service areas.
+*   **Footer Anatomy:** Must include secondary navigation, physical business address, clickable contact info, social links, and privacy policy to serve as a strong business anchor.

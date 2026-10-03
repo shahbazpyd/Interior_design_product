@@ -46,7 +46,7 @@ export default function AdminDashboard() {
   if (loading) return <div className="text-center py-20 text-brand-text-muted">Loading dashboard...</div>;
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-12">
+    <div className="max-w-7xl mx-auto px-6 pt-32 pb-12">
       <div className="flex justify-between items-center mb-10">
         <h1 className="text-4xl font-serif">Lead Management</h1>
         <Button onClick={handleLogout} className="bg-gray-800 text-sm py-2 px-6">Logout</Button>

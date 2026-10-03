@@ -17,12 +17,28 @@
 - [x] Build reusable animation wrapper components (e.g., `FadeIn`, `SlideUp`).
 
 ## Phase 8: Super Premium UI Implementation
-- [ ] Redesign `Home.jsx` with a cinematic Parallax Hero, scroll-triggered reveals, and a Testimonials carousel.
-- [ ] Redesign `Portfolio.jsx` with an advanced, animated masonry or staggered grid.
-- [ ] Build `ProjectDetails.jsx` page for deep-dive case studies (fetching by ID).
-- [ ] Redesign `Navbar` (glassmorphism on scroll) and `Contact` form (multi-step or highly interactive).
+- [x] Redesign `Home.jsx` with a cinematic Parallax Hero, scroll-triggered reveals, and a Testimonials carousel.
+- [x] Redesign `Portfolio.jsx` with an advanced, animated masonry or staggered grid.
+- [x] Build `ProjectDetails.jsx` page for deep-dive case studies (fetching by ID).
+- [x] Redesign `Navbar` (glassmorphism on scroll) and `Contact` form (multi-step or highly interactive).
 
 ## Phase 9: Final Polish & Micro-interactions
-- [ ] Implement magnetic button effects and custom cursors (optional).
-- [ ] Fine-tune Framer Motion spring physics for maximum elegance.
-- [ ] Final performance audit for V2.
+- [x] Implement magnetic button effects and custom cursors (optional).
+- [x] Fine-tune Framer Motion spring physics for maximum elegance.
+- [x] Final performance audit for V2.
+
+## Phase 10: Conversion & Business Logic Optimization
+- [x] Update Navigation Bar to include "Services" and "About Us".
+- [x] Fix Hero CTA Buttons hierarchy (Primary: "Book a Consultation" solid block, Secondary: "Explore Portfolio" outline).
+- [x] Insert a "Featured Projects" 3-column grid section right below the hero image.
+- [x] Build a comprehensive dark Footer (Address, Phone, Instagram, Pinterest, Privacy Policy).
+- [x] Add a Founder Photo & Bio section below the "Signature Approach" section.
+- [x] Improve Hero text legibility with a stronger dark gradient overlay.
+- [x] Add Trust Badges (e.g., "As seen in Architectural Digest", ASID member) for instant credibility.
+
+## Phase 11: The Final Pages (Completing the Funnel)
+- [ ] Build `Services.jsx` (3-tier layout detailing design packages with direct links to Contact).
+- [ ] Build `About.jsx` (Editorial layout expanding on studio history and philosophy).
+- [ ] Add Active States to `Navbar.jsx` (highlight current page in gold).
+- [ ] Implement Portfolio Category Filters in `Portfolio.jsx` (with smooth Framer Motion layout animations).
+- [ ] Wire up new routes in `App.jsx` (including basic fallbacks for Privacy Policy / Terms).
