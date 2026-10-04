@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import FadeIn from '../components/FadeIn';
+import { API_URL } from '../config';
 
 export default function ProjectDetails() {
   const { id } = useParams();
@@ -10,7 +11,7 @@ export default function ProjectDetails() {
 
   useEffect(() => {
     window.scrollTo(0, 0); // Reset scroll position on load
-    fetch(`http://localhost:8000/api/portfolio/${id}`)
+    fetch(`${API_URL}/api/portfolio/${id}`)
       .then(res => res.json())
       .then(data => setProject(data))
       .catch(err => console.error("Error fetching project:", err))

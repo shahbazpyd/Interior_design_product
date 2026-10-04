@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { API_URL } from '../config';
 import Button from '../components/Button';
 
 export default function AdminDashboard() {
@@ -15,7 +16,7 @@ export default function AdminDashboard() {
       return;
     }
 
-    fetch('http://localhost:8000/api/leads/', {
+    fetch(`${API_URL}/api/leads/`, {
       headers: {
         'Authorization': `Bearer ${token}`
       }

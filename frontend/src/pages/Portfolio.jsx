@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import PortfolioCard from '../components/PortfolioCard';
 import FadeIn from '../components/FadeIn';
+import { API_URL } from '../config';
 
 export default function Portfolio() {
   const [projects, setProjects] = useState([]);
@@ -9,7 +10,7 @@ export default function Portfolio() {
   const [filter, setFilter] = useState('All');
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/portfolio/')
+    fetch(`${API_URL}/api/portfolio/`)
       .then(res => res.json())
       .then(data => setProjects(data))
       .catch(err => console.error("Error fetching portfolio:", err))

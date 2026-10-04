@@ -4,6 +4,8 @@ import { ArrowRight, ArrowLeft } from 'lucide-react';
 import Button from '../components/Button';
 import FadeIn from '../components/FadeIn';
 
+import { API_URL } from '../config';
+
 export default function Contact() {
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({
@@ -23,7 +25,7 @@ export default function Contact() {
     setStatus({ type: 'loading', message: 'Submitting your inquiry...' });
     
     try {
-      const response = await fetch('http://localhost:8000/api/leads/', {
+      const response = await fetch(`${API_URL}/api/leads/`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)

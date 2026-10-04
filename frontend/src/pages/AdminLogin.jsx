@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { API_URL } from '../config';
 import Button from '../components/Button';
 
 export default function AdminLogin() {
@@ -17,7 +18,7 @@ export default function AdminLogin() {
       formData.append('username', username);
       formData.append('password', password);
 
-      const response = await fetch('http://localhost:8000/api/auth/token', {
+      const response = await fetch(`${API_URL}/api/auth/token`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
